@@ -10,6 +10,7 @@ This is the official repository for paper **"Mono3DVG: 3D Visual Grounding in Mo
 
 
 ## 📢 Latest Updates
+- **Dec-09-2023**: Mono3DVG paper is accepted by AAAI2024. 🔥🔥
 - 📦 Code, models, and datasets coming soon! 🚀
 ---
 
