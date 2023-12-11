@@ -1,2 +1,2 @@
 # Mono3DVG
-Mono3DVG:3DVisualGroundinginMonocularImages, AAAI2024
+Mono3DVG: 3D Visual Grounding in Monocular Images, AAAI2024
