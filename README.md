@@ -31,4 +31,6 @@ An overview of Mono3DVG
 }  
 ```
 
+## 🙏 Acknowledgement
+We are thankful to LLaVA and Vicuna for releasing their models and code as open-source contributions.
 
