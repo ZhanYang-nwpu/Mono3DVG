@@ -19,3 +19,16 @@ This is the official repository for paper **"Mono3DVG: 3D Visual Grounding in Mo
 
 An overview of Mono3DVG
 
+
+
+## 📜 Citation
+```bibtex
+@misc{*,
+      title={}, 
+      author={},
+      year={2023},
+      archivePrefix={arXiv}
+}  
+```
+
+
