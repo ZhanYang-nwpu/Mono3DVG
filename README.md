@@ -15,8 +15,11 @@ This is the official repository for paper **"Mono3DVG: 3D Visual Grounding in Mo
 ---
 
 ## 💬 Mono3DVG: 3D Visual Grounding in Monocular Images
-introduction
-
+We introduce a novel task of 3D visual grounding in monocular RGB images using descriptions with appearance and geometry information, termed Mono3DVG.
+Mono3DVG aims to localize the true 3D extent of referred objects in an image using language descriptions with geometry information.
+<div align="center">
+  <img src="images/task.png"/>
+</div>
 
 
 ## <img src="images/logo_Mono3DVG.png" height="20"> Mono3DVG-TR: Architecture
