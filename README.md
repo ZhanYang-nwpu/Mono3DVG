@@ -26,7 +26,7 @@ An Overview of Mono3DVG
 ## 👁️ Visualization
 
 <div align="center">
-  <img src="1-results.png"/>
+  <img src="images/1-results.png"/>
 </div>
 
 
