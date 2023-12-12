@@ -29,6 +29,30 @@ An Overview of Mono3DVG
   <img src="images/1-results.png"/>
 </div>
 
+<div align="center">
+  <img src="images/results_maps.png"/>
+</div>
+
+<div align="center">
+  <img src="images/2-results.png"/>
+</div>
+<div align="center">
+  <img src="images/2-results2.png"/>
+</div>
+
+<div align="center">
+  <img src="images/3-results.png"/>
+</div>
+<div align="center">
+  <img src="images/3-results2.png"/>
+</div>
+
+<div align="center">
+  <img src="images/4-results.png"/>
+</div>
+<div align="center">
+  <img src="images/4-results2.png"/>
+</div>
 
 
 ## 🔍 Results
