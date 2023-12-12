@@ -25,34 +25,46 @@ An Overview of Mono3DVG
 
 ## 👁️ Visualization
 
+### 1. Qualitative results from baseline methods and our Mono3DVG-TR.
+
 <div align="center">
   <img src="images/1-results.png"/>
 </div>
+Fig.1 Blue, green, and red boxes denote the ground truth, prediction with IoU higher than 0.5, and prediction with IoU lower than 0.5, respectively.
 
+### 2. Qualitative results of our Mono3DVG-TR.
 <div align="center">
   <img src="images/results_maps.png"/>
 </div>
+Fig.2 Visualization of ’000152.png’ image’s localization results, the depth predictor’s depth maps, and the text-guided
+adapter’s attention score maps for our Mono3DVG-TR.
 
+### 3. Qualitative results in the ’unique’(top) and ’multiple’(bottom) subsets.
 <div align="center">
   <img src="images/2-results.png"/>
 </div>
 <div align="center">
   <img src="images/2-results2.png"/>
 </div>
+Fig.3 The gray block is the traditional query without specific geometry information.
 
+### 4. Qualitative results in the ’near’, ’medium’, and ’far’ subsets.
 <div align="center">
   <img src="images/3-results.png"/>
 </div>
 <div align="center">
   <img src="images/3-results2.png"/>
 </div>
+Fig.4 The gray block is the traditional query without specific geometry information.
 
+### 5. Qualitative results in the ’easy’, ’moderate’, and ’hard’ subsets.
 <div align="center">
   <img src="images/4-results.png"/>
 </div>
 <div align="center">
   <img src="images/4-results2.png"/>
 </div>
+Fig.5 The gray block is the traditional query without specific geometry information.
 
 
 ## 🔍 Results
