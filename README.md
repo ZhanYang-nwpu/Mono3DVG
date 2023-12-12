@@ -18,9 +18,13 @@ This is the official repository for paper **"Mono3DVG: 3D Visual Grounding in Mo
 introduction
 
 
-## <img src="images/logo_Mono3DVG.png" height="20"> Mono3DVG : Architecture
 
-An Overview of Mono3DVG
+## <img src="images/logo_Mono3DVG.png" height="20"> Mono3DVG-TR: Architecture
+
+Mono3DVG-TR is the **first end-to-end transformer-based network** for monocular 3D visual grounding. 
+<div align="center">
+  <img src="images/model.png"/>
+</div>
 
 
 ## 👁️ Visualization
