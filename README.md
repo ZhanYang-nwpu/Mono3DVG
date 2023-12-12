@@ -8,6 +8,7 @@ This is the official repository for paper **"Mono3DVG: 3D Visual Grounding in Mo
 
 The paper has been accepted by **AAAI 2024** 🎉.
 
+**School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University**
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
 
