@@ -68,7 +68,18 @@ Fig.5 The gray block is the traditional query without specific geometry informat
 
 
 ## 🔍 Results
-tables
+
+### 1. Comparison with baselines.
+
+<div align="center">
+  <img src="images/result_table1.png"/>
+</div>
+
+### 2. Results for ’near’-’medium’-’far’ subsets and ’easy’-’moderate’-’hard’ subsets.
+<div align="center">
+  <img src="images/result_table2.png"/>
+</div>
+
 
 
 ## 📜 Citation
