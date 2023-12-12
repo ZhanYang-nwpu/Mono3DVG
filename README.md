@@ -3,8 +3,10 @@
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
 </p>
 
-##### Author: Yang Zhan
+##### Author: Yang Zhan, Yuan Yuan, Zhitong Xiong
 This is the official repository for paper **"Mono3DVG: 3D Visual Grounding in Monocular Images"**.
+
+The paper has been accepted by **AAAI 2024** 🎉.
 
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
