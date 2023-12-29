@@ -25,9 +25,9 @@ Mono3DVG aims to localize the true 3D extent of referred objects in an image usi
 </div>
 
 ## 🌋 Dataset
-Download our Mono3DRefer dataset. We build the first dataset for Mono3DVG, termed Mono3DRefer, which can be downloaded from our [Google Drive](https://drive.google.com/file/d/1Gxb90beup9fADE4TwYzEjQf6VasAwklL/view?usp=drive_link). The download link is available below:
+Download our Mono3DRefer dataset. We build the first dataset for Mono3DVG, termed Mono3DRefer, which can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1ICBv0SRbRIUnl_z8DVuH8lz7KQt580EI?usp=drive_link). The download link is available below:
 ```
-https://drive.google.com/file/d/1Gxb90beup9fADE4TwYzEjQf6VasAwklL/view?usp=drive_link
+https://drive.google.com/drive/folders/1ICBv0SRbRIUnl_z8DVuH8lz7KQt580EI?usp=drive_link
 ```
 
 <div align="center">
