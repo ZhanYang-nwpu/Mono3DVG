@@ -116,7 +116,7 @@ You can download the checkpoint we provide to evaluate the Mono3DVG-TR model.
     </tr>
     <tr>
         <td div align="center">RoBERTa</td> 
-        <td div align="center">down link coming soon</td> 
+        <td div align="center"><a href="https://drive.google.com/file/d/1b7sOQyPmqyUMWoYZ8Vz49MRA7_-pjCpa/view?usp=drive_link">model</a></td>
         <td div align="center">`roberta-base\`</td>
         <td div align="center">`pytorch_model.bin`</td>
     </tr> 
