@@ -100,12 +100,14 @@ You can also change the dataset path at "root_dir" in `configs/mono3dvg.yaml`.
 ### 2. Get Started
 
 (1). Train
+
 You can modify the settings of GPU, models and training in `configs/mono3dvg.yaml`
 ```
     CUDA_VISIBLE_DEVICES=1 python train.py
 ```
 
 (2). Test
+
 The best checkpoint will be evaluated as default.
 You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dvg.yaml`:
 ```
