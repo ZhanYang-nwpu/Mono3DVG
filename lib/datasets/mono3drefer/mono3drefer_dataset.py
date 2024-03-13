@@ -114,7 +114,6 @@ class Mono3DRefer_Dataset(data.Dataset):
 
     def eval(self, results_dir, logger):
         logger.info("==> Loading mono3DVG results and GTs...")
-        # 读取json文件
         with open(results_dir, 'r') as f:
             results = json.load(f)
 
