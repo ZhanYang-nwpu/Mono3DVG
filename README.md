@@ -62,7 +62,7 @@ You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/Mon
     
     cd ../../../..
 ```
-(4). Download [Mono3DRefer](https://drive.google.com/drive/folders/1ICBv0SRbRIUnl_z8DVuH8lz7KQt580EI?usp=drive_link) datasets and prepare the directory structure as:
+(4). Download [Mono3DRefer](https://drive.google.com/drive/folders/1ICBv0SRbRIUnl_z8DVuH8lz7KQt580EI?usp=drive_link) datasets and prepare the **directory structure** as:
 
 ```
     │Mono3DVG/
