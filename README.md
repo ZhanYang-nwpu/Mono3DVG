@@ -110,7 +110,7 @@ You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dv
     CUDA_VISIBLE_DEVICES=1 python test.py
 ```
 
-### 3. Download pre-train model and checkpoint
+### 3. Download Pre-train Model and Checkpoint
 coming soon
 
 
