@@ -102,26 +102,11 @@ You can also change the dataset path at "root_dir" in `configs/mono3dvg.yaml`.
 
 You can also change the save path at "save_path" in `configs/mono3dvg.yaml`.
 
-### 2. Get Started
+(5). Download Pre-trained Model and Checkpoint
 
-(1). Train
+You must download the Pre-trained model of RoBERTa and MonoDETR.
 
-You can modify the settings of GPU, models and training in `configs/mono3dvg.yaml`
-```
-    CUDA_VISIBLE_DEVICES=1 python train.py
-```
-
-(2). Test
-
-The best checkpoint will be evaluated as default.
-You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dvg.yaml`:
-```
-    CUDA_VISIBLE_DEVICES=1 python test.py
-```
-
-### 3. Download Pre-trained Model and Checkpoint
-
-
+You can download the checkpoint we provide to evaluate the Mono3DVG-TR model.
 <table>
     <tr>
         <td div align="center">Models</td>
@@ -148,6 +133,25 @@ You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dv
         <td div align="center">`checkpoint_best.pth`</td>
     </tr> 
 </table>
+
+
+### 2. Get Started
+
+(1). Train
+
+You can modify the settings of GPU, models and training in `configs/mono3dvg.yaml`
+```
+    CUDA_VISIBLE_DEVICES=1 python train.py
+```
+
+(2). Test
+
+The best checkpoint will be evaluated as default.
+You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dvg.yaml`:
+```
+    CUDA_VISIBLE_DEVICES=1 python test.py
+```
+
 
 
 ## 👁️ Visualization
