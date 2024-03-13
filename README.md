@@ -92,7 +92,8 @@ You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/Mon
     ├──utils
     │   ├──...
     ├──outputs    #  save_path
-    │   ├──...
+    │   ├──mono3dvg
+    │   │   ├──...
     ├──test.py
     ├──train.py
 ```
@@ -125,17 +126,20 @@ You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dv
     <tr>
         <td div align="center">Models</td>
         <td div align="center">Links</td>  
+        <td div align="center">File Name</td>  
         <td div align="center">File Path</td>  
     </tr>
     <tr>
         <td div align="center">Pre-trained model</td>
         <td div align="center">down link coming soon</td>
+        <td div align="center">`checkpoint_best_MonoDETR.pth`</td>
         <td div align="center">`configs\`</td>
     </tr>  
     <tr>
         <td div align="center">Best checkpoint</td> 
         <td div align="center">down link coming soon</td> 
-        <td div align="center">`outputs\`</td>
+        <td div align="center">`checkpoint_best.pth`</td>
+        <td div align="center">`outputs\mono3dvg\`</td>
     </tr> 
 </table>
 
