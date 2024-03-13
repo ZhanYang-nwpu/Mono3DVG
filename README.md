@@ -15,7 +15,8 @@ The paper has been accepted by **AAAI 2024** 🎉.
 ## 📢 Latest Updates
 - **Dec-09-2023**: Mono3DVG paper is accepted by AAAI2024. 🔥🔥
 - **Dec-29-2023**: Mono3DRefer dataset is released. 🔥🔥
-- 📦 Codebase and models coming soon! 🚀
+- **Mar-13-2024**: Mono3DVG-TR codebase is released. 🔥🔥
+- 📦 Checkpoint coming soon! 🚀
 ---
 
 ## 💬 Mono3DVG: 3D Visual Grounding in Monocular Images
@@ -42,6 +43,25 @@ Mono3DVG-TR is the **first end-to-end transformer-based network** for monocular 
 <div align="center">
   <img src="images/model.png"/>
 </div>
+
+
+## 📦 Mono3DVG-TR Codebase
+### 1. Environment and Installation
+You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR).
+
+1. Clone this project and create a conda environment: python>=3.8, our version of python == 3.10.8
+2. Install pytorch and torchvision matching your CUDA version: torch >= 1.9.0, our version of torch == 1.13.1
+3. Install requirements and compile the deformable attention.
+    ```
+    pip install -r requirements.txt
+
+    cd lib/models/mono3dvg/ops/
+    bash make.sh
+    
+    cd ../../../..
+    ```
+
+
 
 
 ## 👁️ Visualization
