@@ -99,6 +99,8 @@ You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/Mon
     
 You can also change the dataset path at "root_dir" in `configs/mono3dvg.yaml`.
 
+You can also change the save path at "save_path" in `configs/mono3dvg.yaml`.
+
 ### 2. Get Started
 
 (1). Train
