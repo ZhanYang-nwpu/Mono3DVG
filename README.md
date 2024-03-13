@@ -53,7 +53,7 @@ You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/Mon
 
 (2). Install pytorch and torchvision matching your CUDA version: torch >= 1.9.0, our version of torch == 1.13.1
 
-(3). Install requirements and compile the **Deformable Transformer**.
+(3). Install requirements and compile the **Deformable DETR and Attention**.
 ```
     pip install -r requirements.txt
 
