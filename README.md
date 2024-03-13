@@ -128,7 +128,7 @@ You can download the checkpoint we provide to evaluate the Mono3DVG-TR model.
     </tr>  
     <tr>
         <td div align="center">Best checkpoint (Mono3DVG-TR)</td> 
-        <td div align="center">down link coming soon</td> 
+        <td div align="center"><a href="https://drive.google.com/file/d/17MzREl1duTEF5E7_dVuwINkuHVCItS5V/view?usp=drive_link">model</a></td>
         <td div align="center">`outputs\mono3dvg\`</td>
         <td div align="center">`checkpoint_best.pth`</td>
     </tr> 
