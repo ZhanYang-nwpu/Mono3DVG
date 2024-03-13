@@ -49,9 +49,9 @@ Mono3DVG-TR is the **first end-to-end transformer-based network** for monocular 
 ### 1. Environment and Installation
 You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR).
 
-1. Clone this project and create a conda environment: python>=3.8, our version of python == 3.10.8
-2. Install pytorch and torchvision matching your CUDA version: torch >= 1.9.0, our version of torch == 1.13.1
-3. Install requirements and compile the deformable attention.
+(1). Clone this project and create a conda environment: python>=3.8, our version of python == 3.10.8
+(2). Install pytorch and torchvision matching your CUDA version: torch >= 1.9.0, our version of torch == 1.13.1
+(3). Install requirements and compile the deformable attention.
     ```
     pip install -r requirements.txt
 
@@ -60,7 +60,7 @@ You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/Mon
     
     cd ../../../..
     ```
-4. Download [Mono3DRefer](https://drive.google.com/drive/folders/1ICBv0SRbRIUnl_z8DVuH8lz7KQt580EI?usp=drive_link) datasets and prepare the directory structure as:
+(4). Download [Mono3DRefer](https://drive.google.com/drive/folders/1ICBv0SRbRIUnl_z8DVuH8lz7KQt580EI?usp=drive_link) datasets and prepare the directory structure as:
     ```
     │Mono3DVG/
     ├──Mono3DRefer/
@@ -95,13 +95,13 @@ You can also change the dataset path at "root_dir" in `configs/mono3dvg.yaml`.
 
 ### 2. Get Started
 
-1. Train
+(1). Train
 You can modify the settings of GPU, models and training in `configs/mono3dvg.yaml`
     ```
     CUDA_VISIBLE_DEVICES=1 python train.py
     ```
 
-2. Test
+(2). Test
 The best checkpoint will be evaluated as default.
 You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dvg.yaml`:
     ```
