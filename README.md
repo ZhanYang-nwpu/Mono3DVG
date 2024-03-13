@@ -50,7 +50,9 @@ Mono3DVG-TR is the **first end-to-end transformer-based network** for monocular 
 You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR).
 
 (1). Clone this project and create a conda environment: python>=3.8, our version of python == 3.10.8
+
 (2). Install pytorch and torchvision matching your CUDA version: torch >= 1.9.0, our version of torch == 1.13.1
+
 (3). Install requirements and compile the deformable attention.
 ```
     pip install -r requirements.txt
@@ -111,7 +113,7 @@ You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dv
 ```
 
 ### 3. Download Pre-trained Model and Checkpoint
-coming soon
+
 
 <table>
     <tr>
@@ -121,12 +123,12 @@ coming soon
     </tr>
     <tr>
         <td div align="center">Pre-trained model</td>
-        <td div align="center">down link</td>
+        <td div align="center">down link coming soon</td>
         <td div align="center">`configs\`</td>
     </tr>  
     <tr>
         <td div align="center">Best checkpoint</td> 
-        <td div align="center">down link</td> 
+        <td div align="center">down link coming soon</td> 
         <td div align="center">`outputs\`</td>
     </tr> 
 </table>
