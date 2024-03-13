@@ -92,7 +92,7 @@ You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/Mon
     ├──train.py
     ```
 You can also change the dataset path at "root_dir" in `configs/mono3dvg.yaml`.
-You can also change the number of gpu id at "gpu_ids" in `configs/mono3dvg.yaml`.
+You can also change the gpu id at "gpu_ids" in `configs/mono3dvg.yaml`.
 
 
 
