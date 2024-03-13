@@ -54,7 +54,7 @@ def main():
     else:
         model = torch.nn.DataParallel(model, device_ids=gpu_ids).to(device)
 
-    logger.info('###################  Testing  ##################')
+    logger.info('###################  Mono3DVG-TR Testing  ##################')
     tester = Tester(cfg=cfg['tester'],
                     model=model,
                     dataloader=test_loader,
