@@ -130,13 +130,13 @@ You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dv
         <td div align="center">File Name</td>  
     </tr>
     <tr>
-        <td div align="center">Pre-trained model</td>
+        <td div align="center">Pre-trained model (MonoDETR)</td>
         <td div align="center">down link coming soon</td>
         <td div align="center">`configs\`</td>
         <td div align="center">`checkpoint_best_MonoDETR.pth`</td>
     </tr>  
     <tr>
-        <td div align="center">Best checkpoint</td> 
+        <td div align="center">Best checkpoint (Mono3DVG-TR)</td> 
         <td div align="center">down link coming soon</td> 
         <td div align="center">`outputs\mono3dvg\`</td>
         <td div align="center">`checkpoint_best.pth`</td>
