@@ -110,8 +110,26 @@ You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dv
     CUDA_VISIBLE_DEVICES=1 python test.py
 ```
 
-### 3. Download Pre-train Model and Checkpoint
+### 3. Download Pre-trained Model and Checkpoint
 coming soon
+
+<table>
+    <tr>
+        <td div align="center">Models</td>
+        <td div align="center">Links</td>  
+        <td div align="center">File Path</td>  
+    </tr>
+    <tr>
+        <td div align="center">Pre-trained model</td>
+        <td div align="center">down link</td>
+        <td div align="center">`configs\`</td>
+    </tr>  
+    <tr>
+        <td div align="center">Best checkpoint</td> 
+        <td div align="center">down link</td> 
+        <td div align="center">`outputs\`</td>
+    </tr> 
+</table>
 
 
 ## 👁️ Visualization
