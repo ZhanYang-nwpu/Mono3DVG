@@ -60,7 +60,37 @@ You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/Mon
     
     cd ../../../..
     ```
-
+4. Download [Mono3DRefer]([http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d](https://drive.google.com/drive/folders/1ICBv0SRbRIUnl_z8DVuH8lz7KQt580EI?usp=drive_link)) datasets and prepare the directory structure as:
+    ```
+    │Mono3DVG/
+    ├──Mono3DRefer/
+    │   ├──images/
+    │   │   ├──000000.png
+    │   │   ├──...
+    │   ├──Mono3DRefer_train_image.txt
+    │   ├──Mono3DRefer_val_image.txt
+    │   ├──Mono3DRefer_test_image.txt
+    │   ├──Mono3DRefer.json
+    │   ├──test_instanceID_split.json
+    ├──configs
+    │   ├──mono3dvg.yaml
+    │   ├──checkpoint_best_MonoDETR.pth
+    ├──lib
+    │   ├──datasets/
+            ├──...
+    │   ├──helpers/
+            ├──...
+    │   ├──losses/
+            ├──...
+    │   ├──models/
+            ├──...
+    ├──roberta-base
+        ├──...
+    ├──utils
+        ├──...
+    ├──test.py
+    ├──train.py
+    ```
 
 
 
