@@ -49,11 +49,11 @@ Mono3DVG-TR is the **first end-to-end transformer-based network** for monocular 
 ### 1. Environment and Installation
 You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR).
 
-(1). Clone this project and create a conda environment: python>=3.8, our version of python == 3.10.8
+#### 1.1 Clone this project and create a conda environment: python>=3.8, our version of python == 3.10.8
 
-(2). Install pytorch and torchvision matching your CUDA version: torch >= 1.9.0, our version of torch == 1.13.1
+#### 1.2 Install pytorch and torchvision matching your CUDA version: torch >= 1.9.0, our version of torch == 1.13.1
 
-(3). Install requirements and compile the **Deformable DETR and Attention**.
+#### 1.3 Install requirements and compile the **Deformable DETR and Attention**.
 ```
     pip install -r requirements.txt
 
@@ -62,7 +62,7 @@ You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/Mon
     
     cd ../../../..
 ```
-(4). Download [Mono3DRefer](https://drive.google.com/drive/folders/1ICBv0SRbRIUnl_z8DVuH8lz7KQt580EI?usp=drive_link) datasets and prepare the **directory structure** as:
+#### 1.4 Download [Mono3DRefer](https://drive.google.com/drive/folders/1ICBv0SRbRIUnl_z8DVuH8lz7KQt580EI?usp=drive_link) datasets and prepare the **directory structure** as:
 
 ```
     │Mono3DVG/
@@ -102,9 +102,9 @@ You can also change the dataset path at "root_dir" in `configs/mono3dvg.yaml`.
 
 You can also change the save path at "save_path" in `configs/mono3dvg.yaml`.
 
-(5). Download Pre-trained Model and Checkpoint
+#### 1.5 Download pre-trained model and checkpoint
 
-You must download the Pre-trained model of RoBERTa and MonoDETR.
+You **must** download the Pre-trained model of **RoBERTa** and **MonoDETR**.
 
 You can download the checkpoint we provide to evaluate the Mono3DVG-TR model.
 <table>
@@ -137,14 +137,14 @@ You can download the checkpoint we provide to evaluate the Mono3DVG-TR model.
 
 ### 2. Get Started
 
-(1). Train
+#### (1). Train
 
 You can modify the settings of GPU, models and training in `configs/mono3dvg.yaml`
 ```
     CUDA_VISIBLE_DEVICES=1 python train.py
 ```
 
-(2). Test
+#### (2). Test
 
 The best checkpoint will be evaluated as default.
 You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dvg.yaml`:
