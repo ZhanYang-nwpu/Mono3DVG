@@ -93,10 +93,21 @@ You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/Mon
     ```
 You can also change the dataset path at "root_dir" in `configs/mono3dvg.yaml`.
 
-You can also change the gpu id at "gpu_ids" in `configs/mono3dvg.yaml`.
+### 2. Get Started
 
-### Get Started
-coming soon
+1. Train
+You can modify the settings of GPU, models and training in `configs/mono3dvg.yaml`
+    ```
+    CUDA_VISIBLE_DEVICES=1 python train.py
+    ```
+
+2. Test
+The best checkpoint will be evaluated as default.
+You can change it at "pretrain_model: 'checkpoint_best.pth'" in `configs/mono3dvg.yaml`:
+    ```
+    CUDA_VISIBLE_DEVICES=1 python test.py
+    ```
+
 
 
 ## 👁️ Visualization
