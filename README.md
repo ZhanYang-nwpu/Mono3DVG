@@ -70,6 +70,9 @@ You can follow the environment of [MonoDETR](https://github.com/ZrrSkywalker/Mon
     │   ├──images/
     │   │   ├──000000.png
     │   │   ├──...
+    │   ├──calib/
+    │   │   ├──000000.txt
+    │   │   ├──...
     │   ├──Mono3DRefer_train_image.txt
     │   ├──Mono3DRefer_val_image.txt
     │   ├──Mono3DRefer_test_image.txt
