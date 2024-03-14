@@ -77,7 +77,7 @@ def load_checkpoint(model, optimizer, filename, map_location, logger=None):
             new_state_dict[new_key] = value
 
         if model is not None and checkpoint['model_state'] is not None:
-            model.load_state_dict(new_state_dict)
+            model.load_state_dict(new_state_dict,strict=False)
         if optimizer is not None and checkpoint['optimizer_state'] is not None:
             optimizer.load_state_dict(checkpoint['optimizer_state'])
         logger.info("==> Done")
