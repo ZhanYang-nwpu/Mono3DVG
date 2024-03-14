@@ -16,7 +16,7 @@ The paper has been accepted by **AAAI 2024** 🎉.
 - **Dec-09-2023**: Mono3DVG paper is accepted by AAAI2024. 🔥🔥
 - **Dec-29-2023**: Mono3DRefer dataset is released. 🔥🔥
 - **Mar-13-2024**: Mono3DVG-TR codebase and checkpoint are released. 🔥🔥
-- 📦 coming soon! 🚀
+- 📦 Components for the result visualization of Mono3DVG coming soon! 🚀
 ---
 
 ## 💬 Mono3DVG: 3D Visual Grounding in Monocular Images
