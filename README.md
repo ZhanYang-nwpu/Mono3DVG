@@ -125,7 +125,7 @@ You can download the checkpoint we provide to evaluate the Mono3DVG-TR model.
     </tr> 
     <tr>
         <td div align="center">Pre-trained model (MonoDETR)</td>
-        <td div align="center"><a href="https://drive.google.com/file/d/1RkmgkT0R29rF3-8R9BmLIe-H69Kf3o1d/view?usp=drive_link">model</a></td>
+        <td div align="center"><a href="https://drive.google.com/file/d/1C3CCiaKHA8PImPyJyoQ9u9nIhD5ieRFJ/view?usp=sharing">model</a></td>
         <td div align="center">`configs\`</td>
         <td div align="center">`checkpoint_best_MonoDETR.pth`</td>
     </tr>  
