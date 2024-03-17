@@ -92,7 +92,7 @@ lr_scheduler:
 
 
 trainer:
-  max_epoch: 60
+  max_epoch: 50
   gpu_ids: '1'
   detr_model: 'checkpoint_best_MonoDETR.pth'
   save_frequency: 1    # checkpoint save interval (in epoch)
