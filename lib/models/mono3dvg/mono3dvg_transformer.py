@@ -70,7 +70,7 @@ class TextGuidedAdapter(nn.Module):
         masks = masks_list[1]
         img_pos_embeds = img_pos_embeds_list[1]
 
-        # visual-linguistic verification
+                    
         q = self.with_pos_embed(img_feat_src, img_pos_embeds)
         k = self.with_pos_embed(word_feat, word_pos)
         imgfeat_adapt = self.img2text_attn(query=q.transpose(0, 1),
@@ -107,7 +107,7 @@ class TextGuidedAdapter(nn.Module):
                             reference_points_input, orig_multiscale_img_feat, spatial_shapes,
                                   level_start_index, orig_multiscale_masks)
 
-        # discriminative image feature
+        # adapted image feature
         adapt_img_feat = (self.norm_img(orig_multiscale_img_feat) + self.norm_text_cond_img(text_cond_img_ctx)) * verify_score
 
         # text-guided depth encoder
@@ -119,7 +119,7 @@ class TextGuidedAdapter(nn.Module):
         q = k = depth_pos_embed + depthfeat_adapt   # depth feature of second image
         text_cond_depth = self.depth2depth_attn(query=q, key=k, value=depth_pos_embed, key_padding_mask=mask_depth)[0]
 
-        # discriminative depth feature
+        # adapted depth feature
         adapt_depth_feat = (self.norm_depth(depth_pos_embed.transpose(0, 1)) + self.norm_text_cond_depth(text_cond_depth.transpose(0, 1))) * verify_score_16.flatten(1).unsqueeze(-1)
         adapt_depth_feat = adapt_depth_feat.transpose(0, 1)
         return torch.cat([orig_multiscale_img_feat, adapt_img_feat], dim=-1), torch.cat([depth_pos_embed, adapt_depth_feat], dim=-1)
