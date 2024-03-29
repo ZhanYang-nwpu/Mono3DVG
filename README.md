@@ -4,7 +4,7 @@
 </p>
 
 ##### Author: Yang Zhan, Yuan Yuan, Zhitong Xiong 
-This is the official repository for paper **"Mono3DVG: 3D Visual Grounding in Monocular Images"**. [AAAI paper](https://doi.org/10.1609/aaai.v38i7.28525)     [ArXiv paper](https://arxiv.org/pdf/2312.08022.pdf)    [Video](https://ojs.aaai.org/index.php/AAAI/article/view/28525/29024)
+This is the official repository for paper **"Mono3DVG: 3D Visual Grounding in Monocular Images"**. [AAAI paper](https://doi.org/10.1609/aaai.v38i7.28525)     [ArXiv paper](https://arxiv.org/pdf/2312.08022.pdf)    [AAAI Video/Poster](https://ojs.aaai.org/index.php/AAAI/article/view/28525/29024)
 
 The paper has been accepted by **AAAI 2024** 🎉.
 
