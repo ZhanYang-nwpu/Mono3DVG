@@ -218,12 +218,14 @@ Fig.5 The gray block is the traditional query without specific geometry informat
 
 ## 📜 Citation
 ```bibtex
-@misc{zhan2023mono3dvg,
-      title={Mono3DVG: 3D Visual Grounding in Monocular Images}, 
-      author={Yang Zhan and Yuan Yuan and Zhitong Xiong},
-      year={2023},
-      eprint={2312.08022},
-      archivePrefix={arXiv}
+@inproceedings{zhan2024mono3dvg,
+  title={Mono3DVG: 3D Visual Grounding in Monocular Images},
+  author={Zhan, Yang and Yuan, Yuan and Xiong, Zhitong},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={7},
+  pages={6988--6996},
+  year={2024}
 }
 ```
 
