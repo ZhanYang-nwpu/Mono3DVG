@@ -88,11 +88,11 @@ lr_scheduler:
   type: 'step'  # 'step' or 'cos'
   warmup: True  # 5 epoches, cosine warmup, init_lir=0.00001 in default
   decay_rate: 0.1
-  decay_list: [40]
+  decay_list: [125]
 
 
 trainer:
-  max_epoch: 50
+  max_epoch: 60
   gpu_ids: '1'
   detr_model: 'checkpoint_best_MonoDETR.pth'
   save_frequency: 1    # checkpoint save interval (in epoch)
