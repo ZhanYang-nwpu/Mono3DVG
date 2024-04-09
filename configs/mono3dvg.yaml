@@ -88,7 +88,7 @@ lr_scheduler:
   type: 'step'  # 'step' or 'cos'
   warmup: True  # 5 epoches, cosine warmup, init_lir=0.00001 in default
   decay_rate: 0.1
-  decay_list: [125]
+  decay_list: [40]
 
 
 trainer:
